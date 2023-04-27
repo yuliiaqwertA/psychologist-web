@@ -3,57 +3,70 @@
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
-	font-family: 'Cormorant', serif;
+	font-family: 'Cormorant', serif, 'Zen Loop', cursive;
 }
+
 
 body {
 	min-height: 100vh;
 	margin: 0 70px;
+}
 
+main {
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
 
 }
 
 div.logo {
 	margin: 20px 0;
 	text-align: center;
-	
 }
 
+.logo img {
+	border-radius: 20px;
+}
 
 ul.menu-header {
 	margin: 20px 0;
-	margin: 10px 0;
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
 	justify-content: space-around;
-	
 }
 
+
 .menu-header a {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	font-style: italic;
 	color: #7473C0;
 	padding: 3px;
 }
+
 .menu-header li {
 	list-style-type: none;
 }
+
 
 li a {
 	text-decoration: none;
 }
 
 
-
-
 .mainPhoto {
-	max-width: 50%;
+	align-items: center;
+	min-width: 40%;
 	margin: 20px 0;
 	text-align: center;
 	border-radius: 10px; 
-	height: 100%;
+	
 }
 
 .mainPhoto img {
@@ -65,19 +78,108 @@ li a {
 
 .main-wrapper {
 	display: flex;
+	gap: 3rem;
+	justify-content: flex-start;
+	min-width: 100%;
 }
 
 
+div.main-text h1 {
+font-family: ;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.75rem;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+
+div.main-text h3 {
+	font-weight: 400;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.BookAnApp a {
+	font-weight: 700;
+	margin: 20px 0;
+	text-decoration: none;
+	border-radius: 20px;
+	width: 100%;
+	color: #F5C2CB;
+	text-align: center;
+}
+
+.BookAnApp {
+	margin: 20px 0px;
+	border-radius: 20px;
+	border: #F5C2CB;
+	background-color: #7473C0;
+	padding: 15px 50px;
+	align-items: center;
+
+}
+
 .main-text {
-	min-height: 500px;
-	border: 2px solid;
+	display: flex;
+	flex-direction: column;
+	min-width: 60%;
+	min-height: auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hours {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px 0px;
+	color: #7473C0;
+	gap: 1rem;
+	
+
+}
+.hours h1 {
+	font-family: 'Zen Loop';
+	font-weight: 700;
+	font-style: italic;
+	font-size: 1.75rem;
+	align-items: center;
+}
+.hours p{
+	
+	font-weight: 400;
+	font-style: italic;
+	align-items: center;
+}
+
+.parts {
+	background-color: lightblue;
+	display: flex;
+	justify-content: space-around;
+	gap: 1rem;
+}
+
+.parts h3 {
+	border: 1px solid;
+	background-color: lightpink;
+}.parts p {
+	border: 1px solid;
+	background-color: lightseagreen;
+}
+.first {
+	width: 80%;
 }
 
 
 @media (max-width: 40rem){
+
+	
+
 	
 body {
 	margin: 0 20px;
+
 }
 
 div.logo {
@@ -99,6 +201,7 @@ ul.menu-header {
 }
 
 .menu-header a {
+	font-size: 1rem;
 	font-weight: 700;
 	font-style: italic;
 	color: #7473C0;
@@ -111,6 +214,7 @@ ul.menu-header {
 div.main-wrapper {
 	display: flex;
 	flex-direction: column;
+	gap: 0.3rem;
 }
  
 
@@ -140,7 +244,7 @@ li a {
 div.main-text {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	max-width: 100%;
 	text-align: center;
 	border-radius: 20px;
 	min-height: 10rem;
@@ -158,6 +262,8 @@ div.main-text h1 {
 
 div.main-text h3 {
 	font-weight: 400;
+	margin: 10px 0;
+
 }
 
 .BookAnApp a {
@@ -166,6 +272,7 @@ div.main-text h3 {
 	text-decoration: none;
 	border-radius: 20px;
 	width: 100%;
+	color: #F5C2CB;
 }
 
 .BookAnApp {
@@ -176,14 +283,24 @@ div.main-text h3 {
 	padding: 10px;
 }
 
-.BookAnApp a {
-	color: #F5C2CB;
+ 
+
+ .hours {
+	margin: 20px 0px;
+	max-width: 100%;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.1rem;
 }
 
- .about {
+.hours h1 p{
+	font-size: 0.75rem;
+}
+
+.about {
+ 	
  	background-color: #7473C0;
  }
-
 }
 
 
