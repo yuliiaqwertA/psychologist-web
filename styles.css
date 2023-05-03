@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
-	font-size: 16px;
+	font-size: 25px;
 	font-family: 'Cormorant', serif, 'Zen Loop', cursive;
 }
 
@@ -115,7 +115,7 @@ div.main-text h3 {
 	border-radius: 20px;
 	border: #F5C2CB;
 	background-color: #7473C0;
-	padding: 20px 65px;
+	padding: 10px 65px;
 	align-items: center;
 
 }
@@ -123,7 +123,7 @@ div.main-text h3 {
 .main-text {
 	display: flex;
 	flex-direction: column;
-	min-width: 60%;
+	max-width: 60%;
 	min-height: auto;
 	align-items: center;
 	justify-content: space-between;
@@ -133,7 +133,7 @@ div.main-text h3 {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin: 20px 0px;
+	margin: 30px 0px;
 	color: #7473C0;
 	gap: 1rem;
 	
@@ -161,24 +161,17 @@ div.main-text h3 {
 }
 */
 .parts {
-	text-align: center;
+	
 	color: #7473C0;
 
 
 }
-.partOne {
-	max-width: 1440px;
-	margin: 20px 0;
-	display: flex;
-	gap: 2rem;
-}
 
-.partTwo {
+.partOne, .partTwo  {
 	max-width: 1440px;
-	margin: 20px 0;
+	margin: 30px 0;
 	display: flex;
 	gap: 2rem;
-	
 }
 
 .partOne > * {
@@ -188,65 +181,32 @@ div.main-text h3 {
 
 .partTwo > * {
 	background-color: #F5C2CB;
-	flex-shrink: 1;
+	flex: 1;
 }
 
-.first {
+.first, .third, .fifth, .sixth {
 	padding: 20px;
 	overflow: auto;
 	border-radius: 25px;
-	width: 480px;
-	height: 150px;
+	width: 500px;
+	height: 250px;
+	text-align: center;
 }
 
-.second {
+.second, .fourth  {
 	background-color: #7473C0;
 	padding: 20px;
 	overflow: auto;
 	border-radius: 25px;
-	width: 480px;
-	height: 150px;
+	width: 500px;
+	height: 250px;
 }
 
-.third {
-	padding: 20px;
-	overflow: auto;
-	border-radius: 25px;
-	width: 480px;
-	height: 150px;
-}
-
-.fourth {
-	background-color: #7473C0;
-	padding: 20px;
-	overflow: auto;
-	border-radius: 25px;
-	width: 480px;
-	height: 150px;
-}
-
-.fifth {
-	padding: 20px;
-	overflow: auto;
-	border-radius: 25px;
-	width: 480px;
-	height: 150px;
-}
-
-.sixth {
-	padding: 20px;
-	overflow: auto;
-	border-radius: 25px;
-	width: 480px;
-	height: 150px;
-}
 
 .about {
 	max-width: 1440px;
-	margin: 20px 0px;
-	border: 3px solid #7473C0;
-	border-radius: 25px;
-	padding: 20px;
+	margin: 50px 0px;
+	
 	height: auto;
 	text-align: center;
 	color: #1F3351;
@@ -254,55 +214,54 @@ div.main-text h3 {
 
 .about h1 {
 	padding: 10px;
-	text-align: start;
+	text-align: center;
 	font-family: 'Zen Loop';
 	font-weight: 700;
 	font-style: italic;
 	font-size: 2.75rem;
 }
-
-.services { 
-	display: flex;
-	gap: 2rem;
-	margin: 20px 0;
-
- }
-
- .servisOne h1 {
+.about p {
+	border: 3px solid #7473C0;
+	border-radius: 25px;
+	padding: 10px;
+	
+}
+.servisOne h1 {
  	padding-top: 2rem;
- 	margin: 2px 0;
+ 	margin: 20px 0;
 	font-family: 'Zen Loop';
 	font-weight: 700;
 	font-style: italic;
 	font-size: 2.75rem;
 	text-align: center;
-
- }
- .individual {
- 	max-width: 720px;
- 	height: auto;
- 	border: 3px solid #7473C0;
-	border-radius: 25px;
-	padding: 20px;
-
- }
- .group {
-    max-width: 720px;
- 	height: auto;
- 	border: 3px solid #7473C0;
-	border-radius: 25px;
-	padding: 20px;
  }
 
- .BookAnAppServices {
- 	margin: 20px 0px;
-	border-radius: 20px;
-	border: #F5C2CB;
-	background-color: #7473C0;
-	padding: 20px 65px;
-	align-items: center;
+
+.services { 
+	max-width: 1440px;
+	height: auto;
+	margin: 20px 0px;
+	display: flex;
+	gap: 2rem;
+	text-align: center;
  }
- .BookAnAppServices a {
+
+
+ .BookAnAppServicesOne {
+ 	background-color: #7473C0;
+ 	border-radius: 20px;
+ 	margin-right: 20px;
+ 	margin-left: 20px;
+ 	border: #F5C2CB;
+ 	padding: 10px 55px;
+ 	align-items: center;
+ 	position: absolute;
+ 	bottom: 20px;
+ 	left: 0;
+ }
+
+
+ .BookAnAppServicesOne a {
  	font-weight: 700;
 	margin: 20px 0;
 	text-decoration: none;
@@ -310,8 +269,65 @@ div.main-text h3 {
 	width: 100%;
 	color: #F5C2CB;
 	text-align: center;
+	width: 100%;
 
  }
+ .BookAnAppServicesTwo {
+ 	background-color: #7473C0;
+ 	border-radius: 20px;
+ 	border: #F5C2CB;
+ 	margin: 20px 0px;
+ 	padding: 10px 55px;
+ 	align-items: center;
+ }
+
+
+ .BookAnAppServicesTwo a {
+ 	font-weight: 700;
+	margin: 20px 0;
+	text-decoration: none;
+	border-radius: 20px;
+	width: 100%;
+	color: #F5C2CB;
+	text-align: center;
+ }
+
+ 
+ .individual {
+ 	max-width: 700px;
+ 	height: auto;
+ 	border: 3px solid #7473C0;
+	border-radius: 25px;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	position: relative;
+ }
+
+ .group {
+    max-width: 700px;
+ 	height: auto;
+ 	border: 3px solid #7473C0;
+	border-radius: 25px;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+ }
+
+
+
+.services h3, h2 {
+	margin: 1rem;
+}
+.parts h3 {
+	margin: 1rem;
+}
+
+
+
+
+
+
 
 @media (max-width: 40rem){
 
@@ -444,8 +460,69 @@ div.main-text h3 {
 .about {
 	max-width: 100%;
 	background-color: #F5C2CB;
+	border-radius: 25px;
+
+}
+.about p {
+	border: none;
 }
 
+.services { 
+	display: flex;
+	flex-direction: column;
+	gap: 0.7rem;
+	margin: 10px 0;
+ }
+
+ .servisOne h1 {
+ 	padding-top: 2rem;
+ 	margin: 2px 0;
+	font-family: 'Zen Loop';
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.75rem;
+	text-align: center;
+
+ }
+ .individual {
+ 	max-width: 720px;
+ 	height: auto;
+ 	border: 3px solid #7473C0;
+	border-radius: 25px;
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+
+ }
+ .group {
+    max-width: 720px;
+ 	height: auto;
+ 	border: 3px solid #7473C0;
+	border-radius: 25px;
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+ }
+
+ .BookAnAppServices {
+ 	margin: 10px 0;
+	border-radius: 20px;
+	border: #F5C2CB;
+	background-color: #7473C0;
+	padding: 20px 65px;
+	align-items: center;
+ }
+ .BookAnAppServices a {
+ 	font-weight: 700;
+	margin: 10px 0;
+	text-decoration: none;
+	border-radius: 20px;
+	width: 100%;
+	color: #F5C2CB;
+	text-align: center;
+
+
+ }
 
 
 }
