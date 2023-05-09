@@ -117,7 +117,6 @@ div.main-text h3 {
 	background-color: #7473C0;
 	padding: 10px 65px;
 	align-items: center;
-
 }
 
 .main-text {
@@ -136,9 +135,8 @@ div.main-text h3 {
 	margin: 30px 0px 0px;
 	color: #7473C0;
 	gap: 1rem;
-	
-
 }
+
 .hours h1 {
 	font-family: 'Zen Loop';
 	font-weight: 700;
@@ -146,6 +144,7 @@ div.main-text h3 {
 	font-size: 1.75rem;
 	align-items: center;
 }
+
 .hours p {
 	font-weight: 400;
 	font-style: italic;
@@ -216,12 +215,13 @@ div.main-text h3 {
 	font-style: italic;
 	font-size: 2.75rem;
 }
+
 .about p {
 	border: 3px solid #7473C0;
 	border-radius: 25px;
 	padding: 10px;
-	
 }
+
 .servisOne h1 {
  	padding-top: 2rem;
  	margin: 20px 0;
@@ -308,12 +308,15 @@ div.main-text h3 {
 .services h3 {
     margin: 1rem;
 }
+
 services h2 {
     margin: 1rem;
 }
+
 .services p {
 	margin: 1rem;
 }
+
 .parts h3 {
 	margin: 1rem;
 }
@@ -338,8 +341,8 @@ services h2 {
 	flex-wrap: wrap;
 	gap: 1rem;
 	justify-content: center;
-
 }
+
 .testimonials p {
 	max-width: 1440px;
 	border: 3px solid #7473C0;
@@ -348,20 +351,22 @@ services h2 {
 	padding: 80px;
 	text-align: center;
 }
+
 .contactOne {
 	max-width: 1440px;
 	display: flex;
 	flex-direction: column;
 }
+
 .contactOne h1{
     color: #1F3351;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 2.75rem;
 	text-align: center;
-	margin-top: 2rem;
-
+	margin-top: 2.5rem;
 }
+
 .contactOne h2 {
 	font-family: 'Zen Loop';
 	font-weight: 700;
@@ -370,29 +375,70 @@ services h2 {
 	text-align: center;
 	color: #1F3351;
 }
- .contact { 
- 	display: flex;
-  }
 
+ .contact { 
+ 	margin: 20px 0;
+ 	display: flex;
+ 	gap: 1rem;
+ 	width: 100%;
+  }
+  
   .colorPic {
   	background-color: #7473C0;
 	padding: 20px;
 	overflow: auto;
 	border-radius: 25px;
-	width: 50%;
-	height: 450px;
+	width: 30%;
+	min-height: 500px;
   }
+
   .wrightform {
-  	border: 3px solid;
-  	width: 50%;
-	height: 450px;
+  	flex-wrap: wrap;
+  	background-color: 
+  	border-radius: 25px;
+  	width: 70%;
+	min-height: 500px;
   }
 
- .fname {
- 	background-color: red;
+  #fname,#email,#phone,#subject,#sendMessege {
+  	font-weight: 700;
+	font-size: 1.5rem;
+	color: #1F3351;
+	width: 100%;
+	align-items: center;
+  }
 
+  #fnameTwo,#emailTwo,#phoneTwo,#subjectTwo,#sendMessegeTwo {
+  	width: 100%;
+  	font-size: 1.5rem;
+  	border-radius: 20px;
+  	border: 1px solid #7473C0;
+  	padding: 10px 20px;
+  }
+
+  #sendMessegeTwo {
+  	padding: 2rem 20px;
+  }
+  
+ .form {
+ 	margin: 1rem;
 
  }
+
+ #book {
+ 	background-color: #7473C0;
+ 	border-radius: 20px;
+ 	border: #F5C2CB;
+ 	margin: 30px 0 0px;
+ 	padding: 5px 40px;
+ 	width: 100%;
+ 	font-weight: 700;
+	font-size: 1.5rem;
+	color: #1F3351;
+ }
+ 
+
+
 
 @media (max-width: 45rem){
 
@@ -555,8 +601,28 @@ div.main-text h3 {
 .testimonials p {
 	padding: 30px;
 }
-
-
+.colorPic {
+	display: none;
+}
+.form {
+	padding: 1rem;
+	margin: 0.1rem;
+	border: 1px solid #1F3351;
+	border-radius: 20px;
+}
+.contact { 
+ 	margin: 20px 0;
+ 	display: flex;
+ 	gap: 1rem;
+ 	width: 100%;
+ 	justify-content: center;
+  }
+  .wrightform {
+  	width: 100%;
+  }
+  #book {
+  	width: 100%;
+  }
 }
 
 
