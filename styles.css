@@ -474,6 +474,33 @@ services h2 {
 	color: #7473C0;;
 }
 
+footer {
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightblue;
+}
+
+.footerlogo {
+	margin: 20px 0;
+	text-align: center;
+}
+
+.footerlogo img {
+	border-radius: 10px;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+}
+.contactsTwo {
+	display: flex;
+	flex-direction: row;
+}
 
 
 
