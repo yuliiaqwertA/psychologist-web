@@ -178,7 +178,9 @@ div.main-text h3 {
 	background-color: #F5C2CB;
 	flex: 1;
 }
-
+footer > * {
+	flex-shrink: 1;
+}
 .first, .third, .fifth, .sixth {
 	padding: 20px;
 	overflow: auto;
@@ -471,14 +473,30 @@ services h2 {
 
 .fiveQuestions p {
 	font-weight: 400;
-	color: #7473C0;;
+	color: #7473C0;
 }
 
 footer {
 	max-width: 1440px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: lightblue;
+	background-color:  #7473C0;
+	margin: 20px 0px;
+
+}
+.menuBotton li {
+list-style-type: none;
+
+
+}
+.menuBotton a {
+	color: #1F3351;
+	font-weight: 400;
+}
+.menuBotton h3 {
+color: #1F3351;
+font-weight: 700;
+font-style: italic;
 }
 
 .footerlogo {
@@ -490,8 +508,12 @@ footer {
 	border-radius: 10px;
 }
 .footer {
+    
+	width: 100%;
 	display: flex;
 	flex-direction: row;
+	gap: 3rem;
+	justify-content: space-between;
 }
 .contacts {
 	display: flex;
