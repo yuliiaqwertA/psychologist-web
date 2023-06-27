@@ -38,7 +38,7 @@ div.logo {
 }
 
 ul.menu-header {
-	margin: 20px 70px;
+	margin: 50px 70px 20px 70px;
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
@@ -98,28 +98,29 @@ div.main-text h1 {
 div.main-text h3 {
 	color: #1F3351;
 	font-weight: 400;
-	text-align: center;
-	margin-top: 2rem;
+	text-align: justify;
+	margin-top: 1rem;
+	font-size: 1.5rem;
 }
 
-.BookAnApp a {
-	font-weight: 700;
-	margin: 20px 0;
-	text-decoration: none;
-	border-radius: 20px;
+.booka {
 	width: 100%;
-	color: #F5C2CB;
-	text-align: center;
 }
 
 .BookAnApp {
-	margin: 20px 0px;
-	border-radius: 20px;
-	border: #F5C2CB;
+	text-align: center;
+	border: transparent;
+	padding: 15px;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: white;
 	background-color: #7473C0;
-	padding: 10px 65px;
-	align-items: center;
+	border-radius: 20px;
+	margin: 20px 0px;
+	width: 100%;
 }
+
 .BookAnApp:hover {
 	opacity: 70%;
 }
@@ -146,7 +147,7 @@ div.main-text h3 {
 	font-family: 'Zen Loop';
 	font-weight: 700;
 	font-style: italic;
-	font-size: 1.75rem;
+	font-size: 2rem;
 	align-items: center;
 }
 
@@ -154,6 +155,7 @@ div.main-text h3 {
 	font-weight: 400;
 	font-style: italic;
 	align-items: center;
+	font-size: 1.5rem;
 }
 
 
@@ -165,7 +167,7 @@ div.main-text h3 {
 }
 */
 .parts {
-	color: #7473C0;
+	 color: #1F3351;
 }
 
 .partOne, .partTwo  {
@@ -223,7 +225,8 @@ div.main-text h3 {
 .about p {
 	border: 3px solid #7473C0;
 	border-radius: 25px;
-	padding: 10px;
+	padding: 2rem;
+	font-size: 1.5rem;
 }
 
 .servisOne h1 {
@@ -266,6 +269,12 @@ div.main-text h3 {
 	align-items: center;
 	text-align: center;
  }
+.group h2 {
+	font-size: 1.5rem;
+}
+.services h2 {
+	font-size: 1.5rem;
+}
 
 .BookAnAppServicesOne {
  	background-color: #7473C0;
@@ -275,18 +284,10 @@ div.main-text h3 {
  	padding: 10px 55px;
  	align-items: center;
  	width: 100%;
+ 	font-weight: 700;
+ 	color: white;
  }
 
- .BookAnAppServicesOne a {
- 	font-weight: 700;
-	margin: 20px 0;
-	text-decoration: none;
-	border-radius: 20px;
-	width: 100%;
-	color: #F5C2CB;
-	text-align: center;
-	width: 100%;
- }
 
  .BookAnAppServicesTwo {
  	background-color: #7473C0;
@@ -296,17 +297,11 @@ div.main-text h3 {
  	padding: 10px 55px;
  	align-items: center;
  	width: 100%;
+ 	font-weight: 700;
+ 	color: white;
  }
 
- .BookAnAppServicesTwo a {
- 	font-weight: 700;
-	margin: 20px 0;
-	text-decoration: none;
-	border-radius: 20px;
-	width: 100%;
-	color: #F5C2CB;
-	text-align: center;
- }
+ 
 .BookAnAppServicesOne:hover {
 	opacity: 70%;
 }
@@ -315,14 +310,18 @@ div.main-text h3 {
 }
 .services h3 {
     margin: 1rem;
+    font-size: 1.5rem;
 }
 
 services h2 {
     margin: 1rem;
+
+
 }
 
 .services p {
 	margin: 1rem;
+	font-size: 1.5rem;
 }
 
 .parts h3 {
@@ -354,10 +353,11 @@ services h2 {
 .testimonials p {
 	max-width: 1440px;
 	border: 3px solid #7473C0;
-	color: #F5C2CB;
+	color: #1F3351;
 	border-radius: 25px;
 	padding: 80px;
 	text-align: center;
+	font-size: 1.5rem;
 }
 
 .contactOne {
@@ -437,11 +437,11 @@ services h2 {
  	border-radius: 20px;
  	border: #F5C2CB;
  	margin: 30px 0 0px;
- 	padding: 5px 40px;
+ 	padding: 20px 40px;
  	width: 100%;
  	font-weight: 700;
 	font-size: 1.5rem;
-	color: #1F3351;
+	color: white;
  } 
  #book:hover {
 	opacity: 70%;
@@ -488,6 +488,7 @@ services h2 {
 .fiveQuestions p {
 	font-weight: 400;
 	color: #7473C0;
+	font-size: 1.5rem;
 }
 
 
@@ -497,6 +498,7 @@ services h2 {
 footer {
 	margin-top: 2rem;
 	background-color:#7473C0;
+	font-size: 1.5rem;
 	
 }
 
@@ -521,7 +523,7 @@ footer {
 
 .menuBotton a {
 	margin: 5px 5px;
-	color: #1F3351;
+	color: white;
 	font-weight: 400;
 	font-size: 1.2rem;
 	font-style: italic;
@@ -533,7 +535,7 @@ footer {
 
 .menu-footer h3 {
 	padding: 5px 10px;
-	color: #1F3351;
+	color: white;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 1.2rem;
@@ -594,14 +596,18 @@ footer {
 	font-size: 1.2rem;
 }
 
-/*.contactsOne a {
+.contactsOne a {
 	text-decoration: none;
-	color: black;
-}*/
+	color: white;
+}
+
+.contactsOne a:hover {
+	color: #F5C2CB;
+}
 
 .contacts h3 {
 	padding: 5px 10px;
-	color: #1F3351;
+	color: white;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 1.2rem;
@@ -694,6 +700,7 @@ div.main-text h3 {
 	color: #1F3351;
 	font-weight: 400;
 	margin: 10px 0;
+	text-align: center;
 }
 
 .BookAnApp a {
